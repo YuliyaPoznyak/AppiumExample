@@ -1,0 +1,13 @@
+{
+  "capabilities": {
+    "driverUrl": "http://127.0.0.1:4724/wd/hub",
+    "platformName": "Android",
+    "deviceName": "pixel_7",
+    "platformVersion": "11",
+    "automationName": "UiAutomator2",
+    "appPackage": "com.example.login",
+    "app": "./src/test/resources/apk/BSB_Bank_base.apk"
+  },
+  "url": "https://mobile.bsb.by/",
+  "cookie": "sessioncookie=177c37730412a56748f8352e18991a24f22b3a2f4323d472445ff9450330af664335b2f7c077fe8e577f8c12f0f39da0"
+}

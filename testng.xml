@@ -1,0 +1,25 @@
+<suite name="RatesTest" verbose="1">
+
+    <test name="NB RB CHF Test">
+        <classes>
+            <class name = "tests.RateCourseTest">
+                <methods>
+                    <parameter name="currencyCode" value="CHF" />
+                    <include name = "validNationalBankTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Calculator USD Test">
+        <classes>
+            <class name = "tests.CurrencyCalculatorTest">
+                <methods>
+                    <parameter name="currencyCode" value="USD" />
+                    <include name = "validCalculatorDataTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
